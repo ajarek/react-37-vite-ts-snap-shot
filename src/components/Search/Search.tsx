@@ -1,20 +1,18 @@
-import React from 'react'
-
-import classes from './styles.module.css'
-
-export const Search = (props) => {
-  const {
-    className,
-    ...otherProps
-  } = props
-
+import './Search.css'
+export const Search = () => {
   return (
-    <div
-      className={`${classes.root}${className ? ` ${className}` : ''}`}
-      {...otherProps}
-    >
-
-    </div>
+    <form className={'form'}>
+      <input
+        type='search'
+        placeholder='Search...'
+        id=''
+      />
+      <input
+        type='submit'
+        value='🔍'
+      />
+      
+    </form>
   )
 }
 export default Search
