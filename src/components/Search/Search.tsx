@@ -1,8 +1,6 @@
-import { HTMLInputTypeAttribute } from 'react'
 import './Search.css'
 type Props = {
   handleSubmit: React.FormEventHandler
- 
 }
 export const Search = ({ handleSubmit }: Props) => {
   return (
