@@ -1,0 +1,12 @@
+.ul{
+  list-style: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+.ul li img{
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}

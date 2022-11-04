@@ -1,9 +1,10 @@
 .list{
   width: 462px;
-  height: 26px;
+  height: 36px;
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin-bottom: 1rem;
 }
 .list li{
  
@@ -11,14 +12,16 @@
 .nav-btn{
   background-color: #051c33;
   min-width: 100px;
-  height: 26px;
+  height: 36px;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 3px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 .nav-btn:hover{
-  background-color: #4f4d4d;
+  background-color: #535252;
+  font-size: 1rem;
 }

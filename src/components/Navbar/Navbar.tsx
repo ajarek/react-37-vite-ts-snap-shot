@@ -27,7 +27,7 @@ const Navbar = () => {
           className={'nav-btn'}
           onClick={addText}
         >
-          Beaches
+          Beach
         </button>
       </li>
       <li>

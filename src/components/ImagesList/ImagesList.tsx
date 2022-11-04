@@ -12,7 +12,7 @@ interface Image {
 }
 const ImagesList = ({images}:Props) => {
   return (
-    <ul>
+    <ul className={'ul'}>
     { images.map((image:Image) => {
   let farm = image.farm;
   let server = image.server;

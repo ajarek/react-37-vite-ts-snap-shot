@@ -1,17 +1,23 @@
+import { HTMLInputTypeAttribute } from 'react'
 import './Search.css'
-export const Search = () => {
+type Props = {
+  handleSubmit: React.FormEventHandler
+ 
+}
+export const Search = ({ handleSubmit }: Props) => {
   return (
-    <form className={'form'}>
+    <form
+      className={'form'}
+      onSubmit={handleSubmit}
+    >
       <input
         type='search'
         placeholder='Search...'
-        id=''
       />
       <input
         type='submit'
         value='🔍'
       />
-      
     </form>
   )
 }
