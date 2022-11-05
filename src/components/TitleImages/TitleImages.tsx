@@ -5,7 +5,7 @@ type Props = {
 
 const TitleImages = ({ tags }: Props) => {
   return (
-    <div >
+    <div>
       <h3>
         <span className={'title-image'}>{tags} </span>
         Images

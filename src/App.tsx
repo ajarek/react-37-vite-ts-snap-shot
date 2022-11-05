@@ -48,8 +48,7 @@ function App() {
         <Header />
         <Search handleSubmit={handleSubmit} />
         <Navbar />
-       <TitleImages
-        tags={tags}/>
+        <TitleImages tags={tags} />
         <ImagesList images={images} />
       </div>
     </AppContext.Provider>

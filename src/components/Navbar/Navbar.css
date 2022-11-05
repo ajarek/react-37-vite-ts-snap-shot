@@ -1,4 +1,4 @@
-.list{
+.list {
   width: 462px;
   height: 36px;
   display: flex;
@@ -6,10 +6,7 @@
   list-style: none;
   margin-bottom: 1rem;
 }
-.list li{
- 
-}
-.nav-btn{
+.nav-btn {
   background-color: #051c33;
   min-width: 100px;
   height: 36px;
@@ -21,7 +18,19 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.nav-btn:hover{
+.nav-btn:hover {
   background-color: #535252;
   font-size: 1rem;
+}
+@media (max-width: 489px) {
+  .list {
+    width: 100%;
+    height: 85px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .nav-btn {
+    min-width: 75px;
+    margin-bottom: 0.5rem;
+  }
 }
